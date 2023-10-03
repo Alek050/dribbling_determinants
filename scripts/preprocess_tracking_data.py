@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy.signal import savgol_filter
 import os
-from calculate_angles import get_angle
+from scripts.calculate_angles import get_angle
 
 def preprocess_tracking_data(tracking_data:pd.DataFrame, Fs: int=10, save_name: str="preprocessed_positions") -> pd.DataFrame:
     """Preprocess the tracking data to compute the velocity and acceleration of each player, 
@@ -439,14 +439,3 @@ def check_when_possession_is_lost(df_tracking: pd.DataFrame, df_bp: pd.DataFrame
         return makes_bs_threshold.loc[first_invalid_idx:].idxmax() - 1
     else:
         return df_bp.index[-1]
-
-if __name__ == "__main__":
-    if "reformated_positions.csv" not in os.listdir("data"):
-        from reformat_positions import reformat_positions
-        reformat_positions()
-    
-    processed = preprocess_tracking_data(pd.read_csv("data/reformated_positions.csv", index_col=0))
-    import pdb; pdb.set_trace()
-
-
-

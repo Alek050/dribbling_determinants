@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from typing import Union
 
-from calculate_angles import get_angles
+from scripts.calculate_angles import get_angles
 
 def get_pressure_on_player(
     df: pd.DataFrame,

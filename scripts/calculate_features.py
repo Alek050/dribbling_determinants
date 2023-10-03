@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from calculate_pressure import get_pressure_on_player
-from calculate_voronoi_area import get_voronoi_area
-from calculate_angles import get_angles
+from scripts.calculate_pressure import get_pressure_on_player
+from scripts.calculate_voronoi_area import get_voronoi_area
+from scripts.calculate_angles import get_angles
 
 from typing import Dict
 import pandas as pd
@@ -157,10 +157,7 @@ def get_max_speed_angle_interaction(df: pd.DataFrame, player: str, second: str =
     return np.max(interaction)
 
 
-if __name__ == "__main__":
-    tracking_data = pd.read_pickle("data/preprocessed_positions.pickle")
-    start_possession_idx = 29753
-    features = get_features(tracking_data, start_possession_idx)
+
 
 
 
