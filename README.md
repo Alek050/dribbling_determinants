@@ -1,4 +1,4 @@
-# dribbling determinants
+# Dribbling Determinants
 This GitHub repository aims to exemplify the data preprocessing and feature extraction used in the paper of Oonk et al (2023). Note that this code is purely to illustrate how the features were extracted. A more optimized software to load, preprocess, synchronize, and analyze soccer tracking and event data can be found in the [databallpy package](https://github.com/Alek050/databallpy). 
 
 ## How to use this repository
