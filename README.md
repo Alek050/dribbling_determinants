@@ -6,10 +6,13 @@ The main file in this pacakge is the notebooks. The first notebook is the [prepr
 
 ## Any questions?
 If you have any questions regarding the project, you can reach out to g.a.oonk@umcg.nl, be also sure to checkout out the [databallpy package](https://github.com/Alek050/databallpy). 
+
 <div align="center">
   <a href="https://github.com/Alek050/databallpy">
     <img src="https://github.com/Alek050/databallpy/assets/49450063/56100e87-c680-4dc1-82e5-4aa8fdbc8a34" alt="Logo">
   </a>
 </div>
 
-[![DataBallPy]("https://github.com/Alek050/databallpy/assets/49450063/56100e87-c680-4dc1-82e5-4aa8fdbc8a34")]("https://github.com/Alek050/databallpy")
+
+
+
