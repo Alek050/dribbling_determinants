@@ -20,9 +20,9 @@ lightgbm = "^4.1.0"
 statsmodels = "^0.14.0"
 ffmpeg-python = "^0.2.0"
 xlsxwriter = "^3.1.9"
-databallpy = { git = "https://github.com/Alek050/databallpy.git", branch = "develop" }
 lxml = "^4.9.3"
 openpyxl = "^3.1.2"
+databallpy = "0.4.2"
 
 
 [build-system]
