@@ -165,6 +165,7 @@ cython_debug/
 .DS_Store
 test.py
 
+core/*
 data/clips/
 data/take_on_clips/
 data/labels/
