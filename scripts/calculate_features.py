@@ -8,14 +8,14 @@ from typing import Dict
 import pandas as pd
 import numpy as np
 
-def get_features(tracking_data: pd.DataFrame, start_possession_idx: int, pitch_length: float = 105.0, pitch_width: float = 68.0) -> Dict[str, float]:
+def get_features(tracking_data: pd.DataFrame, start_possession_idx: int, pitch_length: float = 106.0, pitch_width: float = 68.0) -> Dict[str, float]:
     """
     Calculates a dictionary of features for a given possession in a soccer match.
 
     Args:
         tracking_data: A pandas DataFrame with tracking data over the entire match.
         start_possession_idx: An integer representing the index of the start of the possession.
-        pitch_length: A float representing the length of the soccer pitch. Default is 105.0.
+        pitch_length: A float representing the length of the soccer pitch. Default is 106.0.
         pitch_width: A float representing the width of the soccer pitch. Default is 68.0.
 
     Returns:
